@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman';
+  font-size: 15px;
+}
+.ipt {
+  font-size: 40px;
+  font-family: 'Merienda';
+  text-align: center;
+  color: cornflowerblue;
+  width: 50px;
+  height: 50px;
+  margin: 1px;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+.ipt_in {
+  font-size: 40px;
+  font-family: 'Merienda';
+  text-align: center;
+  color: cornflowerblue;
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  margin: 1px;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+.ipt_match {
+  font-size: 40px;
+  font-family: 'Merienda';
+  text-align: center;
+  color: cornflowerblue;
+  background-color: greenyellow;
+  width: 50px;
+  height: 50px;
+  margin: 1px;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+.ipt_no_match {
+  font-size: 40px;
+  font-family: 'Merienda';
+  text-align: center;
+  color: cornflowerblue;
+  background-color: lightcoral;
+  width: 50px;
+  height: 50px;
+  margin: 1px;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+#submit {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+/* 헤더 */
+header {
+  width: 100%;
+  height: 100px;
+  background-color: greenyellow;
+  margin-bottom: 30px;
+}
+
+header > div {
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Merienda', cursive;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* 개개 행 */
+.row {
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* 푸터 */
+footer {
+  width: 100%;
+  height: 100px;
+  border-top: 3px double black;
+  margin-top: 30px;
+}
+footer > div {
+  text-align: center;
+  padding: 15px;
+}
